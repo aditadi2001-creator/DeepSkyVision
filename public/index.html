@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DeepSkyVision — Deep-sky astrophotography from Bangalore</title>
+  <meta name="description" content="Deep-sky astrophotography from a Bortle 9 rooftop in Bangalore: image gallery, the full gear and setup, and free project files.">
+  <meta name="theme-color" content="#060912">
+  <meta property="og:title" content="DeepSkyVision — Deep-sky astrophotography from Bangalore">
+  <meta property="og:description" content="Faint light, gathered patiently. Gallery, gear and project files from a Bortle 9 rooftop in Bangalore.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="/assets/fonts/big-shoulders-display-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/hanken-grotesk-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body data-page="home">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header" data-site-header></header>
+
+  <main id="main">
+    <section class="hero" aria-label="Introduction">
+      <div class="compare" data-compare>
+        <canvas class="final" aria-hidden="true"></canvas>
+        <canvas class="raw" aria-hidden="true"></canvas>
+        <button class="handle" type="button" role="slider" aria-label="Compare a single raw frame with the finished image" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+          <span class="handle-grip">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l-6 6 6 6M15 6l6 6-6 6"/></svg>
+          </span>
+        </button>
+      </div>
+      <p class="compare-label l">One 60-second frame<small>Straight off the camera</small></p>
+      <p class="compare-label r">Hours of stacking<small>After processing</small></p>
+
+      <div class="hero-copy">
+        <div class="wrap">
+          <h1><span class="ln"><span>Faint light,</span></span><span class="ln"><span>gathered</span></span><span class="ln"><span>patiently.</span></span></h1>
+          <p class="hero-sub">Deep-sky astrophotography from a Bortle 9 rooftop in Bangalore.</p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="/gallery">See the gallery</a>
+            <a class="btn btn-ghost" href="/gear">Gear and setup</a>
+          </div>
+        </div>
+      </div>
+      <p class="hero-note">Illustrated sample</p>
+    </section>
+
+    <section class="section">
+      <div class="wrap statement">
+        <h2 class="h2">Bangalore’s sky is bright. The signal is still there.</h2>
+        <div>
+          <p>I shoot from a Bortle 9 rooftop, about as light-polluted as skies get. Narrowband filters pass only the light that hydrogen, oxygen and sulphur atoms emit, so nebulae still stand out against the city glow.</p>
+          <p>It takes more hours than a dark site would. This site is where those hours end up: finished frames, the gear behind them, and the files for the projects I build along the way.</p>
+          <a class="link-arrow" href="/about">More about the setup</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section tint" aria-labelledby="latest-h">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 class="h2" id="latest-h">Latest frames</h2>
+          <a class="link-arrow" href="/gallery">All frames</a>
+        </div>
+        <ul class="grid grid-3" data-latest></ul>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="process-h">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 class="h2" id="process-h">From photons to picture</h2>
+        </div>
+        <ol class="steps">
+          <li class="step">
+            <h3>Capture</h3>
+            <p>N.I.N.A. runs the night: framing, focusing and dithering, with PHD2 guiding. The C9.25 collects hundreds of short frames through narrowband and broadband filters.</p>
+          </li>
+          <li class="step">
+            <h3>Calibrate</h3>
+            <p>Dark and flat frames remove sensor noise and the shadows of dust. The <a href="/downloads">FlatCalibration Panel</a> is being built to automate this.</p>
+          </li>
+          <li class="step">
+            <h3>Integrate</h3>
+            <p>PixInsight aligns and stacks every frame. Signal adds up steadily while random noise doesn’t, which is why hours beat minutes.</p>
+          </li>
+          <li class="step">
+            <h3>Process</h3>
+            <p>Gradient removal, sharpening, stretching and colour mapping, then final touches in Photoshop. Narrowband data is mapped to the SHO palette.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section tint" aria-labelledby="rig-h">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 class="h2" id="rig-h">The rig</h2>
+          <a class="link-arrow" href="/gear">Full gear list</a>
+        </div>
+        <dl class="rows">
+          <div class="row"><dt>Telescope</dt><dd>Celestron C9.25<small class="muted"> with focal reducer, about 1210 mm at f/5.15</small></dd></div>
+          <div class="row"><dt>Mount</dt><dd>ZWO AM5N on a rooftop pier</dd></div>
+          <div class="row"><dt>Camera</dt><dd>ToupTek ATR585M mono<small class="muted"> (Sony IMX585)</small></dd></div>
+          <div class="row"><dt>Filters</dt><dd>ZWO Hα, OIII, SII narrowband set, Optolong L-Pro, LRGB</dd></div>
+          <div class="row"><dt>Software</dt><dd>N.I.N.A., PHD2, PixInsight, Photoshop</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="proj-h">
+      <div class="wrap feature">
+        <div>
+          <h2 class="h2" id="proj-h">Automated FlatCalibration Panel</h2>
+          <p style="margin-top:22px">A motorised telescope cover with a built-in LED flat panel for the C9.25, controlled from N.I.N.A. It closes for darks and lights up for flats, so calibration frames take themselves.</p>
+          <p>The build guide, parts list and files will be shared here as downloads.</p>
+          <a class="btn btn-primary" href="/downloads">Project files</a>
+        </div>
+        <svg class="art" viewBox="0 0 400 400" role="img" aria-label="Illustration of a telescope front with a half-closed motorised cover over a glowing flat panel">
+          <defs>
+            <radialGradient id="panel" cx="50%" cy="50%" r="50%">
+              <stop offset="0" stop-color="#fff3d6"/><stop offset=".6" stop-color="#e9a94b"/><stop offset="1" stop-color="#8a560f"/>
+            </radialGradient>
+          </defs>
+          <circle cx="200" cy="200" r="186" fill="#0b1222" stroke="#2a3552" stroke-width="3"/>
+          <circle cx="200" cy="200" r="160" fill="none" stroke="#1b2540" stroke-width="10"/>
+          <circle cx="200" cy="200" r="148" fill="url(#panel)"/>
+          <path d="M200 52a148 148 0 0 1 0 296z" fill="#111a2e" stroke="#46557d" stroke-width="3"/>
+          <path d="M200 52v296" stroke="#46557d" stroke-width="3"/>
+          <circle cx="200" cy="52" r="9" fill="#3bbfae"/><circle cx="200" cy="348" r="9" fill="#3bbfae"/>
+          <path d="M246 130a96 96 0 0 1 0 140" fill="none" stroke="#46557d" stroke-width="3" stroke-dasharray="3 9" stroke-linecap="round"/>
+        </svg>
+      </div>
+    </section>
+
+    <section class="section tint">
+      <div class="wrap cta">
+        <h2 class="h2">New frames after every clear night</h2>
+        <p>Browse the gallery, see exactly what I shoot with, or grab the project files.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="/gallery">Open the gallery</a>
+          <a class="btn btn-ghost" href="/contact">Get in touch</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" data-site-footer></footer>
+  <noscript><p class="ns">This site uses JavaScript to show the gallery and gear lists. Please enable it to see them.</p></noscript>
+  <script type="module" src="/assets/js/main.js"></script>
+</body>
+</html>

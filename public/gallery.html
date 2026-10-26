@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gallery — DeepSkyVision</title>
+  <meta name="description" content="Deep-sky astrophotography frames from a Bortle 9 rooftop in Bangalore: nebulae, galaxies, clusters and wide-field work.">
+  <meta name="theme-color" content="#060912">
+  <meta property="og:title" content="Gallery — DeepSkyVision">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="/assets/fonts/big-shoulders-display-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/hanken-grotesk-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body data-page="gallery">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header" data-site-header></header>
+
+  <main id="main">
+    <div class="wrap page-head">
+      <h1>Gallery</h1>
+      <p>Finished frames, newest first. Open any image for the details of how it was made.</p>
+    </div>
+    <div class="wrap" style="padding-bottom: clamp(72px, 10vw, 140px)">
+      <div class="filters" data-filters role="group" aria-label="Filter by category"></div>
+      <ul class="grid" data-gallery></ul>
+    </div>
+  </main>
+
+  <footer class="site-footer" data-site-footer></footer>
+  <noscript><p class="ns">This site uses JavaScript to show the gallery. Please enable it to see the images.</p></noscript>
+  <script type="module" src="/assets/js/main.js"></script>
+</body>
+</html>

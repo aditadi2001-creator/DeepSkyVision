@@ -1,0 +1,79 @@
+{
+  "_help": "Add a real frame by putting the image in /images/gallery/ and adding an item with src (and optional thumb). Remove the 'sample' block from an item once it has a real src. Newest first.",
+  "categories": ["Nebulae", "Galaxies", "Clusters", "Wide field"],
+  "items": [
+    {
+      "id": "sample-emission-nebula",
+      "title": "Emission nebula in narrowband",
+      "target": "Sample frame",
+      "category": "Nebulae",
+      "ratio": "4 / 3",
+      "date": "",
+      "description": "Placeholder artwork generated in your browser to show how a finished narrowband frame is presented here. Real frames replace these as they are processed.",
+      "acquisition": {
+        "Palette": "SHO (Hα, OIII, SII)",
+        "Telescope": "Celestron C9.25",
+        "Camera": "ToupTek ATR585M"
+      },
+      "sample": { "kind": "nebula", "seed": 7 }
+    },
+    {
+      "id": "sample-spiral-galaxy",
+      "title": "Spiral galaxy, broadband",
+      "target": "Sample frame",
+      "category": "Galaxies",
+      "ratio": "1 / 1",
+      "date": "",
+      "description": "Placeholder artwork. Galaxy frames will list total integration and filters used once real images are added.",
+      "acquisition": {
+        "Palette": "LRGB",
+        "Telescope": "Celestron C9.25",
+        "Camera": "ToupTek ATR585M"
+      },
+      "sample": { "kind": "galaxy", "seed": 12 }
+    },
+    {
+      "id": "sample-star-cluster",
+      "title": "Dense star cluster",
+      "target": "Sample frame",
+      "category": "Clusters",
+      "ratio": "5 / 4",
+      "date": "",
+      "description": "Placeholder artwork showing the layout for cluster frames.",
+      "acquisition": {
+        "Telescope": "Celestron C9.25",
+        "Camera": "ZWO ASI585MC Pro"
+      },
+      "sample": { "kind": "cluster", "seed": 31 }
+    },
+    {
+      "id": "sample-milky-way",
+      "title": "Milky Way over the horizon",
+      "target": "Sample frame",
+      "category": "Wide field",
+      "ratio": "3 / 2",
+      "date": "",
+      "description": "Placeholder artwork for wide-field and timelapse work shot with the Sony a6100.",
+      "acquisition": {
+        "Camera": "Sony a6100",
+        "Mount": "ZWO AM5N"
+      },
+      "sample": { "kind": "milkyway", "seed": 5 }
+    },
+    {
+      "id": "sample-emission-nebula-2",
+      "title": "Bright nebula, second palette",
+      "target": "Sample frame",
+      "category": "Nebulae",
+      "ratio": "3 / 4",
+      "date": "",
+      "description": "Placeholder artwork. Portrait frames sit alongside landscape ones in the gallery grid.",
+      "acquisition": {
+        "Palette": "SHO (Hα, OIII, SII)",
+        "Telescope": "Celestron C9.25",
+        "Camera": "ToupTek ATR585M"
+      },
+      "sample": { "kind": "nebula", "seed": 22 }
+    }
+  ]
+}

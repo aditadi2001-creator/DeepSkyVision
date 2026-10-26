@@ -1,0 +1,15 @@
+{
+  "name": "DeepSkyVision",
+  "tagline": "Deep-sky astrophotography from Bangalore",
+  "location": "Bangalore, India",
+  "email": "",
+  "social": [],
+  "nav": [
+    { "label": "Gallery", "href": "/gallery" },
+    { "label": "Gear", "href": "/gear" },
+    { "label": "Project files", "href": "/downloads" },
+    { "label": "About", "href": "/about" },
+    { "label": "Contact", "href": "/contact" }
+  ],
+  "shop": { "enabled": false, "url": "" }
+}

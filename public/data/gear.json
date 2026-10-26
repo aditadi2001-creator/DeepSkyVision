@@ -1,0 +1,181 @@
+{
+  "_help": "Add a buy link by setting url (and optionally store). Items without a url show no button. Set status to 'planned' for things you intend to buy.",
+  "disclosure": "Some links on this page are affiliate links. If you buy through them I may earn a small commission, at no extra cost to you. I only list gear I own or plan to buy.",
+  "glance": [
+    { "label": "Focal length", "value": "1210 mm" },
+    { "label": "Focal ratio", "value": "f/5.15" },
+    { "label": "Image scale", "value": "0.49″/px" },
+    { "label": "Sky", "value": "Bortle 9" }
+  ],
+  "groups": [
+    {
+      "id": "telescope",
+      "title": "Telescope and mount",
+      "blurb": "A compact, long-focal-length SCT on a harmonic-drive mount.",
+      "items": [
+        {
+          "name": "Celestron C9.25",
+          "spec": "Schmidt-Cassegrain, 235 mm aperture",
+          "note": "Used with a focal reducer for about 1210 mm at f/5.15, confirmed by plate solving.",
+          "url": "", "store": ""
+        },
+        {
+          "name": "ZWO AM5N",
+          "spec": "Harmonic-drive equatorial mount",
+          "note": "Run in heavy-duty mode with a counterweight.",
+          "url": "", "store": ""
+        },
+        {
+          "name": "Vorion Scientific observatory pier",
+          "spec": "Rooftop pier",
+          "note": "Replaces the tripod for a permanent, repeatable setup.",
+          "url": "", "store": ""
+        }
+      ]
+    },
+    {
+      "id": "cameras",
+      "title": "Cameras",
+      "blurb": "A mono camera for the main imaging train, a colour camera for guiding and quick looks.",
+      "items": [
+        {
+          "name": "ToupTek ATR585M",
+          "spec": "Mono, Sony IMX585, 2.9 µm pixels, 3840 × 2160",
+          "note": "Main deep-sky camera.",
+          "url": "", "store": ""
+        },
+        {
+          "name": "ZWO ASI585MC Pro",
+          "spec": "Colour, IMX585",
+          "note": "Guiding through the off-axis guider, and colour imaging.",
+          "url": "", "store": ""
+        },
+        {
+          "name": "ZWO ASI120MM Mini",
+          "spec": "Mono guide camera",
+          "note": "Compact guiding option.",
+          "url": "", "store": ""
+        },
+        {
+          "name": "Sony a6100",
+          "spec": "APS-C mirrorless",
+          "note": "Milky Way and timelapse work, with a small kit of APS-C and full-frame lenses.",
+          "url": "", "store": ""
+        }
+      ]
+    },
+    {
+      "id": "filters",
+      "title": "Filters and wheel",
+      "blurb": "Narrowband does the heavy lifting under city skies.",
+      "items": [
+        {
+          "name": "ZWO narrowband set (Hα, OIII, SII)",
+          "spec": "For SHO imaging",
+          "note": "The best way to image nebulae from a Bortle 9 rooftop.",
+          "url": "", "store": ""
+        },
+        {
+          "name": "Optolong L-Pro",
+          "spec": "Light-pollution broadband filter",
+          "note": "Used as the luminance filter.",
+          "url": "", "store": ""
+        },
+        {
+          "name": "ZWO LRGB filters and IR-pass filter",
+          "spec": "Broadband colour and infrared",
+          "note": "",
+          "url": "", "store": ""
+        },
+        {
+          "name": "ZWO EFW 5 Mini",
+          "spec": "Five-position filter wheel",
+          "note": "",
+          "url": "", "store": ""
+        }
+      ]
+    },
+    {
+      "id": "guiding",
+      "title": "Focus and guiding",
+      "blurb": "Keeping stars round over long exposures.",
+      "items": [
+        {
+          "name": "ZWO off-axis guider (OAG)",
+          "spec": "Guides through the main telescope",
+          "note": "Avoids guide-scope flexure on a long focal length.",
+          "url": "", "store": ""
+        },
+        {
+          "name": "ZWO EAF",
+          "spec": "Electronic automatic focuser",
+          "note": "Autofocus from N.I.N.A.",
+          "url": "", "store": ""
+        },
+        {
+          "name": "Angeleyes 60 mm guide scope",
+          "spec": "230 mm focal length, f/3.8",
+          "note": "Being tested as a digital finder.",
+          "url": "", "store": ""
+        }
+      ]
+    },
+    {
+      "id": "software",
+      "title": "Software and control",
+      "blurb": "A mini PC at the telescope runs the whole night.",
+      "items": [
+        {
+          "name": "N.I.N.A.",
+          "spec": "Capture and sequencing",
+          "note": "Plate solving, autofocus, dithering and the night's sequence.",
+          "url": "", "store": ""
+        },
+        {
+          "name": "PHD2",
+          "spec": "Guiding",
+          "note": "",
+          "url": "", "store": ""
+        },
+        {
+          "name": "PixInsight",
+          "spec": "Calibration, stacking and processing",
+          "note": "",
+          "url": "", "store": ""
+        },
+        {
+          "name": "Adobe Photoshop",
+          "spec": "Final touches",
+          "note": "",
+          "url": "", "store": ""
+        }
+      ]
+    },
+    {
+      "id": "extras",
+      "title": "Dew, solar and extras",
+      "blurb": "",
+      "items": [
+        {
+          "name": "Celestron dew heater ring",
+          "spec": "Fitted to the C9.25",
+          "note": "",
+          "url": "", "store": ""
+        },
+        {
+          "name": "Celestron solar filter",
+          "spec": "White-light solar observing",
+          "note": "",
+          "url": "", "store": ""
+        },
+        {
+          "name": "Celestron dew shield for the C9.25",
+          "spec": "",
+          "note": "On the list for a future upgrade.",
+          "status": "planned",
+          "url": "", "store": ""
+        }
+      ]
+    }
+  ]
+}

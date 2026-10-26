@@ -1,0 +1,16 @@
+{
+  "_help": "Each file points at Google Drive. Share the file as 'Anyone with the link', then paste its file ID in driveId. status: 'live' shows download buttons; 'soon' shows a placeholder.",
+  "note": "Files are hosted on Google Drive. Large files may show a virus-scan notice first; choose Download anyway.",
+  "items": [
+    {
+      "id": "flatcalibration-panel",
+      "title": "Automated FlatCalibration Panel",
+      "status": "soon",
+      "summary": "A motorised telescope cover with a built-in LED flat panel for the Celestron C9.25, controlled from N.I.N.A. Close the cover for darks, light the panel for flats, and let the sequence do the rest.",
+      "details": "Derived from the DarkSkyGeek ASCOM Telescope Cover V2 by Julien Lecomte, reworked with a PWM-dimmed COB LED strip instead of an electroluminescent panel. The package will include the build guide, parts list, 3D-print files and firmware.",
+      "meta": { "Type": "Build guide, STL files, firmware", "Works with": "N.I.N.A. via ASCOM", "Version": "In preparation" },
+      "driveId": "",
+      "viewUrl": ""
+    }
+  ]
+}
