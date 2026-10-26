@@ -25,7 +25,7 @@
   --line-strong: rgba(170, 188, 235, 0.3);
   --text: #e6e9f2;
   --mute: #98a1b8;
-  --faint: #6c7690;
+  --faint: #7f8aa6;
   --amber: #e9a94b;
   --amber-ink: #1c1304;
   --teal: #3bbfae;
@@ -384,7 +384,7 @@ dialog.lightbox[open] { display: grid; grid-template-columns: minmax(0, 1fr) 360
 .status.live { color: var(--teal); border-color: rgba(59, 191, 174, 0.5); }
 .status.soon { color: var(--amber); border-color: rgba(233, 169, 75, 0.5); }
 .callout { margin-top: clamp(36px, 5vw, 64px); padding: 26px 28px; border: 1px solid var(--line-strong); border-radius: 8px; background: var(--deep); max-width: 76ch; }
-.callout h3 { font-size: 1.7rem; margin-bottom: 8px; }
+.callout h2 { font-size: 1.7rem; margin-bottom: 8px; }
 .callout p { margin: 0; color: var(--mute); }
 @media (max-width: 700px) { .dl { grid-template-columns: 1fr; } .dl-actions { flex-direction: row; flex-wrap: wrap; min-width: 0; } }
 
