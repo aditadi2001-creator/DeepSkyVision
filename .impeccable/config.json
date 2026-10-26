@@ -1,0 +1,26 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "public/index.html"
+        ],
+        "createdAt": "2026-10-26T07:54:51.505Z",
+        "reason": "Claude: false positive from clamp() padding-block; browser-measured padding on .section.tint is 148px, with 56px inline inset from inner .wrap"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "public/about.html"
+        ],
+        "createdAt": "2026-10-26T07:54:51.517Z",
+        "reason": "Claude: false positive from clamp() padding-block; browser-measured padding-top/bottom on .prose is 64px"
+      }
+    ]
+  }
+}
